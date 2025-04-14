@@ -1,1 +1,1 @@
-
+Objective: In your Streamlit app, build an interactive machine learning experience for your user. Your app should allow users to upload a dataset, experiment with hyperparameters, and observe how these affect model training and performance. The final result should be an intuitive interface that invites exploration and communicates results clearly.
