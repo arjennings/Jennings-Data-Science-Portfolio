@@ -9,10 +9,6 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 from sklearn.preprocessing import StandardScaler
 
-
-# you also need to push this to github
-# then you put the link into streamlit
-
 # -----------------------------------------------
 # Application Information
 # -----------------------------------------------
