@@ -17,16 +17,16 @@ In terminal: git clone https://github.com/arjennings/unsupervised-ml-streamlit.g
 
 ### Summary of App Features
 
-### Dataset Handling
+1. Dataset Handling
 - Upload your own .csv file or use a built-in test dataset.
 - Automatically detects numeric features for analysis.
 - Preview dataset and selected features.
 
-### PCA (Principal Component Analysis)
+2. PCA (Principal Component Analysis)
 - Reduce dimensionality to make high-dimensional data interpretable.
 - Adjustable number of components via slider.
 
-### Clustering Methods
+3. Clustering Methods
 - KMeans Clustering:
   - Choose the number of clusters (2–10).
   - View silhouette score to evaluate model performance.
@@ -35,7 +35,7 @@ In terminal: git clone https://github.com/arjennings/unsupervised-ml-streamlit.g
   - Choose linkage method (ward, complete, average, single).
   - Visual dendrogram of the clustering process.
 
-### Visualization
+4. Visualization
 - Cluster scatterplot (colored by group).
 - Dendrogram for hierarchical clustering.
 - Elbow plot for KMeans.
