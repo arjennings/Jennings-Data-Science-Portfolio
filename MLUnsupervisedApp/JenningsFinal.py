@@ -1,7 +1,4 @@
 
-# - Make sure you can select feature variables, not only target variables
-# - Still include a requirements.txt
-
 #installing kagglehub so I can import the data to my notebook
 #the below line is specific to Jupyter notebooks, use it in terminal if you are not in this environment
 #%pip install kagglehub
@@ -164,7 +161,7 @@ st.subheader("Cluster Visualization (First Two PCA Components)")
 fig_pca, ax_pca = plt.subplots()
 sns.scatterplot(
     data=df_clustered,
-    x="PCA1",
+    x="PCA1", 
     y="PCA2",
     hue="Cluster",
     palette="tab10",
