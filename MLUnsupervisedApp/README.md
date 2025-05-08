@@ -3,11 +3,16 @@
 This interactive Streamlit app enables users to explore patterns in customer data through unsupervised machine learning techniques. Because it is unsupervised, this app emphasizes exploration and trial and error. Users can upload their own datasets or use a sample dataset and then choose numeric features, perform dimensionality reduction with PCA, and apply clustering methods (KMeans or Hierarchical) to identify meaningful groups.
 
 ### Instructions for Running the App ###
-## 1. Clone the Repository: git clone https://github.com/arjennings/unsupervised-ml-streamlit.git
-## 2. Set up Environment
-## 3. Install requirements listed in the requirements.txt
-## 4. Run the App
-## 5. Access the app locally after it launches to see the visualizations
+1. Clone the Repository: 
+In terminal: git clone https://github.com/arjennings/unsupervised-ml-streamlit.git
+
+2. Set up Environment
+
+3. Install requirements listed in the requirements.txt
+
+4. Run the App
+
+5. Access the app locally after it launches to see the visualizations
 
 
 ### Summary of App Features
