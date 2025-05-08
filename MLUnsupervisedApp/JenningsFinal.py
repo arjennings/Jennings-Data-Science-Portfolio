@@ -203,4 +203,13 @@ if st.sidebar.button("Generate Elbow Plot"):
     st.markdown("""
 ### What is the Elbow Plot?
 
-The Elbow Plo
+The Elbow Plot helps determine the optimal number of clusters for K-Means clustering. 
+It shows how the model's inertia (sum of squared distances to the nearest cluster center) decreases as the number of clusters increases.
+
+Initially, adding more clusters significantly improves the model (reduces inertia), but after a certain point the benefit drops off—this "elbow" (point of diminishing returns) is a good indication of the best number of clusters to use. If you go beyond the elbow and choose too many clusters, the model may overfit the data and become less generalizable.
+""")
+#the elbow plot also will inform the reader of ideal number of clusters to use and then they can go back and re-adjust the parameters to get a better model
+
+
+
+
