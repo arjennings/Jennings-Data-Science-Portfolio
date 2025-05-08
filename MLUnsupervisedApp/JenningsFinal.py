@@ -79,9 +79,6 @@ X = df[selected_features].dropna() #dropping any rows with missing values in the
 
 #In this next step, I will use PCA to reduce the dimensionality of the dataset and make it easier to use
 
-#preprocessing for PCA: dropping non numerical values just in case they are still in the dataset, but they should have been filtered out when the user selected a numerical feature
-X = df.select_dtypes(include=[np.number]).dropna()
-
 #ask users for input on choosing the number of PCA components and K-Means clusters
 st.sidebar.markdown("### Choose the number of dimensions (PCA) and clusters (KMeans):")
 #this is a sidebar header that will be displayed on the left side of the app
