@@ -34,7 +34,7 @@ st.sidebar.header("1. Upload or Select Dataset")
 
 #creating a dataset from the csv
 sample_dataset = {
-    "Test Dataset": pd.read_csv("Test Data.csv"),
+    "Test Dataset": pd.read_csv(os.path.join(os.path.dirname(__file__), "Test Data.csv"))
 }
 #easy select feature for my dataset or their own upload
 dataset_option = st.sidebar.selectbox("Choose my dataset", options=["Upload your own"] + list(sample_dataset.keys()))
