@@ -14,6 +14,8 @@ In terminal: git clone https://github.com/arjennings/unsupervised-ml-streamlit.g
 
 5. Access the app locally after it launches to see the visualizations
 
+Warning: I have had issues with running this in the cloud. If that persists, I recommend downloading 'Test Data.csv' to your computer and running it locally. Here is a link: https://drive.google.com/file/d/1ICMN6c93v-mOzHECmYjAIpyIpKWfElTw/view?usp=sharing
+
 
 ### Summary of App Features
 
@@ -40,6 +42,8 @@ In terminal: git clone https://github.com/arjennings/unsupervised-ml-streamlit.g
 - Dendrogram for hierarchical clustering.
 - Elbow plot for KMeans.
 - Informative descriptions below each chart to aid interpretation.
+
+
 
 
 
