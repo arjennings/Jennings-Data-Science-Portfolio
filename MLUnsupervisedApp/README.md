@@ -12,10 +12,11 @@ In terminal: git clone https://github.com/arjennings/unsupervised-ml-streamlit.g
 
 4. Run the App
 
-5. Access the app locally after it launches to see the visualizations
+5. Access the app after it launches to see the visualizations
 
 Warning: I have had issues with running this in the cloud. If that persists, I recommend downloading 'Test Data.csv' to your computer and running it locally. Here is a link: https://drive.google.com/file/d/1ICMN6c93v-mOzHECmYjAIpyIpKWfElTw/view?usp=sharing
 
+Here is a link to the app on streamlit cloud: https://arjennings-jennings-data--mlunsupervisedappjenningsfinal-amrzbf.streamlit.app/
 
 ### Summary of App Features
 
