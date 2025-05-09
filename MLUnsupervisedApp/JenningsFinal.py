@@ -135,7 +135,7 @@ A score of 0 indicates that the object is on or very close to the decision bound
 else:
     # Hierarchical Clustering
     linkage_method = st.sidebar.selectbox("Linkage Method", ["ward", "complete", "average", "single"])
-    Z = linkage(X_scaled, method=linkage_method)
+    Z = linkage(X_pca, method=linkage_method)
     clusters = fcluster(Z, t=n_clusters, criterion='maxclust')
 
     # Show dendrogram
